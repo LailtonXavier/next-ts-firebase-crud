@@ -153,3 +153,17 @@ npm run dev
 ### Ate aqui esta o projeto completo, porem esta todo mundo junto
   - vamos utilizar hooks para organizar, isso esta em outra branch
 
+# refatorando
+  - criando pasta em `src->hooks`
+  
+  - de `index.tsx` vamos copiar todas as funções e colocar dento
+   de nosso hook (useClientes)
+   - dentro do nosso Hook precisamos exportar quem vms usar
+    - exportar todos os metodos e state, importar no `index.tsx`
+  
+  - criar novo hooks para setVisivel
+    - criando toda a logica necessaria dos `visivel`.
+    - exportando e pegando no hook `useClientes`.
+
+  - Por fim, importar o hook e seu metodos para `index.tsx`
+  
